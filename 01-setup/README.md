@@ -1,6 +1,11 @@
-# 01 – Setup and Installation
+# Setup and Installation
 
-This section explains how I installed and ran n8n, both in the cloud and locally with Docker.
+This section provides instructions for setting up the project.
+
+- **[Cloud Version](./cloud.version.png)**
+- **[Docker Container](./docker.container.png)**
+- **[Git Bash](./git.bash.png)**
+- **[Local Host Version](./local.host.version.png)**
 
 ---
 

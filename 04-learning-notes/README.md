@@ -1,4 +1,4 @@
-# 04 – What I Learned (Learning Notes)
+# 04 – What I Learned (Learning Nodes)
 
 ##  Section 1 – Why I Chose Each Node
 
@@ -81,6 +81,20 @@ Sent only one email with all the combined content using:
 ###  Connection to My DevOps Studies
 As a DevOps student, I recognized many terms during this project—like API, HTTP request, and method—which I also encountered during my official coursework.
 Seeing them in practice within n8n helped solidify my understanding and showed how these concepts apply in real automation scenarios.
+
+---
+
+# Learning Notes
+
+This section contains notes and screenshots from the learning process.
+
+- **[Email Body Set](./email.body.set.png)**
+- **[Gmail Config](./gmail.conig.png)**
+- **[Google URL](./google.url.png)**
+- **[IF Condition](./if.condition.png)**
+- **[Merge HTTP](./merge.http.png)**
+- **[Microsoft URL](./microsoft.url.png)**
+- **[Schedule Config](./schedule.conig.png)**
 
 ---
 

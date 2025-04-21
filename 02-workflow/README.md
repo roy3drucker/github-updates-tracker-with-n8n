@@ -16,17 +16,16 @@ This folder contains a description of the n8n automation I built to monitor new 
 ![alt text](../images/workflow.png)
 ---
 
-##  Node Explanations
+## Node Descriptions
 
-| Node          | Description |
-|---------------|-------------|
-| Schedule      | Runs once a day at 08:00 AM |
-| HTTP Request 1| Sends a GET request to: https://api.github.com/orgs/microsoft/repos?per_page=1&sort=updated |
-| HTTP Request 2| Sends a GET request to: https://api.github.com/orgs/google/repos?per_page=1&sort=updated |
-| Merge         | Combines both responses into one item list |
-| IF            | Checks if `updated_at` contains today's date |
-| Edit Fields   | Creates field `email_body` and joins all summaries into one block of text |
-| Gmail         | Sends one email with the combined summary |
+- **Schedule**: Runs once a day at 08:00 AM.
+- **HTTP Request 1**: Sends a GET request to: `https://api.github.com/orgs/microsoft/repos?per_page=1&sort=updated`.
+- **HTTP Request 2**: Sends a GET request to: `https://api.github.com/orgs/google/repos?per_page=1&sort=updated`.
+- **Merge**: Combines both responses into one item list.
+- **IF**: Checks if `updated_at` contains today's date.
+- **Edit Fields**: Creates field `email_body` and joins all summaries into one block of text.
+- **Gmail**: Sends one email with the combined summary.
+
 ---
 ## 🔗 Related Links
 
